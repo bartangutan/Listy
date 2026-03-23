@@ -18,4 +18,15 @@
         android:layout_height="wrap_content"
         android:entries="@array/jezyki_programowania"/>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista języków inaczej: " />
+
+    <ListView
+        android:id="@+id/listViewJezyki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
